@@ -82,3 +82,22 @@ body {
     color: black;
     border: 2px solid black;
 }
+
+@media only screen and (max-width: 670px) {
+    
+    .navbar ul {
+        text-align: center;
+        margin-right: 50px;
+    }
+    
+    .navbar li {
+        float: none;
+        margin: none;
+        display: inline-block;
+    }
+
+    .search-box {
+        left: 50%;
+    }
+
+}
