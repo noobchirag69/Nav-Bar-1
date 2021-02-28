@@ -1,0 +1,84 @@
+body {
+    background-image: url(Sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.navbar {
+    background-color: #455ff6;
+    border-radius: 50px;
+    border: solid black;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 10px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.navbar li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.search-txt {
+    outline: none;
+    background: none;
+    color: white;
+    border: none;
+    size: 16px;
+    width: 0px;
+    float: left;
+    padding: 0;
+    transition: 0.4s;
+    line-height: 25px;
+}
+
+.search-box {
+    position: absolute;
+    left: 80%;
+    color: white;
+    margin-top: 25px;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    background: black;
+    padding: 10px;
+    height: 25px;
+}
+
+.search-btn {
+    color: white;
+    float: right;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.search-box:hover > .search-txt {
+    width: 200px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
