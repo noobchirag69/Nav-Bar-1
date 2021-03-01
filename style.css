@@ -1,7 +1,5 @@
 body {
-    background-image: url(Sunrise.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
+    background: linear-gradient(to right, lightgrey, grey);
 }
 
 .navbar {
